@@ -19,7 +19,7 @@ export const Pricing = () => {
               <p className="text-gray-400 text-sm font-[AksharRegular]">Billed every month</p>
             </div>
             <div className="text-right">
-              <span className="text-4xl font-[AksharSemiBold] text-gray-900">$1.99</span>
+              <span className=" text-xl md:text-4xl font-[AksharSemiBold] text-gray-900">$1.99</span>
               <span className="text-gray-400 font-[AksharSemiBold]">/month</span>
             </div>
           </div>
@@ -44,7 +44,7 @@ export const Pricing = () => {
           </div>
 
           {/* Static Informational Badge */}
-          <div className="w-full bg-gray-100 border border-gray-200 text-gray-500 py-4 rounded-2xl font-[AksharSemiBold] cursor-default select-none flex items-center justify-center gap-2">
+          <div className="w-full bg-gray-100 border border-gray-200 text-gray-500 py-4 px-1 md:px-0 rounded-2xl font-[AksharSemiBold] cursor-default select-none flex items-center justify-center gap-2">
             <span>Includes all Premium Features</span>
           </div>
           

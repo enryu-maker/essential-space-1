@@ -18,7 +18,7 @@ export const PhoneMockup = ({ className }) => {
 
         {/* Status Bar */}
         <div className="h-12 w-full flex justify-between items-center px-6 pt-2 text-[10px] font-bold text-gray-900">
-          <span>11:09</span>
+          <span className='font-[AksharRegular]'>11:09</span>
           <div className="flex gap-1">
             <div className="w-4 h-2.5 border border-gray-900 rounded-[2px]"></div>
           </div>
@@ -36,7 +36,7 @@ export const PhoneMockup = ({ className }) => {
             <Mic className="w-6 h-6 text-black" strokeWidth={1.5} />
             <div>
               <h3 className="font-[AksharSemiBold] text-sm">Voice Notes</h3>
-              <p className="text-[9px] text-gray-500 leading-tight">Record and manage voice notes.</p>
+              <p className="text-[9px] font-[AksharRegular] text-gray-500 leading-tight">Record and manage voice notes.</p>
             </div>
           </div>
 
@@ -44,7 +44,7 @@ export const PhoneMockup = ({ className }) => {
             <ImageIcon className="w-6 h-6 text-black" strokeWidth={1.5} />
             <div>
               <h3 className="font-[AksharSemiBold] text-sm">Image Notes</h3>
-              <p className="text-[9px] text-gray-500 leading-tight">Capture photo notes easily.</p>
+              <p className="text-[9px] font-[AksharRegular] text-gray-500 leading-tight">Capture photo notes easily.</p>
             </div>
           </div>
 
@@ -52,7 +52,7 @@ export const PhoneMockup = ({ className }) => {
             <FileText className="w-6 h-6 text-black" strokeWidth={1.5} />
             <div>
               <h3 className="font-[AksharSemiBold] text-sm">Text Notes</h3>
-              <p className="text-[9px] text-gray-500 leading-tight">Write and edit text notes.</p>
+              <p className="text-[9px] font-[AksharRegular] text-gray-500 leading-tight">Write and edit text notes.</p>
             </div>
           </div>
 
@@ -60,7 +60,7 @@ export const PhoneMockup = ({ className }) => {
             <Link2 className="w-6 h-6 text-black" strokeWidth={1.5} />
             <div>
               <h3 className="font-[AksharSemiBold] text-sm">Save URLs</h3>
-              <p className="text-[9px] text-gray-500 leading-tight">Bookmark and organize links.</p>
+              <p className="text-[9px] font-[AksharRegular] text-gray-500 leading-tight">Bookmark and organize links.</p>
             </div>
           </div>
 
