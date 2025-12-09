@@ -23,7 +23,7 @@ const features = [
   },
   {
     title: "Sync Across Devices",
-    description: "Start on iPhone, finish on Mac. Your content stays updated seamlessly in the background.",
+    description: "Accessible on iOS & macOS",
     icon: RefreshCw
   },
   {
@@ -41,11 +41,11 @@ const features = [
     description: "Capture ideas in milliseconds from your home screen.",
     icon: Zap
   },
-  {
-    title: "Unlimited Space",
-    description: "Your thinking shouldn’t have limits. Create as many notes as you need.",
-    icon: Infinity
-  }
+  // {
+  //   title: "Unlimited Space",
+  //   description: "Your thinking shouldn’t have limits. Create as many notes as you need.",
+  //   icon: Infinity
+  // }
 ];
 
 // ---------------- MOTION VARIANT ----------------
