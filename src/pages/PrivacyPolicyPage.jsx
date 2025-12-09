@@ -12,7 +12,7 @@ const PrivacyPolicyPage = () => {
             <Navbar />
             <div className="pt-32 pb-24 px-6 max-w-3xl mx-auto font-[Akshar] text-gray-800">
                 <h1 className="text-4xl md:text-5xl font-[AksharSemiBold] mb-8">Privacy Policy</h1>
-                <p className="text-gray-500 font-[AksharRegular] mb-12">Last updated: {new Date().toLocaleDateString()}</p>
+                <p className="text-gray-500 font-[AksharRegular] mb-12">Last updated:  9/12/2025</p>
 
                 <div className="space-y-10">
 

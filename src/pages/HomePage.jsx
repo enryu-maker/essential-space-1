@@ -120,7 +120,7 @@ const Home = () => {
                                 </div>
                                 <h4 className="font-[AksharSemiBold] text-xl">Private by Default</h4>
                                 <p className="text-gray-500 text-base font-[AksharRegular] leading-relaxed max-w-xs">
-                                    Your thoughts are yours. Local-first architecture keeps your data secure on your device.
+                                    Your thoughts are yours. Keeps your data secure & encrypted.
                                 </p>
                             </div>
                         </div>
