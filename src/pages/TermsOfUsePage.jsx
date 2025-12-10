@@ -33,13 +33,13 @@ const TermsOfUsePage = () => {
           <section>
             <h2 className="text-2xl font-[AksharSemiBold] mb-4 text-gray-900">2. Subscriptions & Payments</h2>
             <ul className="list-disc pl-6 space-y-2 font-[AksharRegular] text-gray-600 text-lg">
-              <li>Essential Space offers a Premium Auto-Renew subscription that provides access to additional features.</li>
+              <li>Essential Space offers a Premium Auto-renew subscription that provides access to additional features.</li>
               <li>Payment is charged to your Apple ID account at the time of purchase.</li>
               <li>The subscription automatically renews unless canceled at least 24 hours before the end of the billing period.</li>
               <li>Your Apple ID account will be charged for renewal within 24 hours prior to the end of the current period.</li>
               <li>You can manage and cancel your subscription through your App Store account settings.</li>
               <li>We do not store or access your payment information.</li>
-              <li>The current subscription price is <strong>$ 1.99 USD</strong> and may change following Apple guidelines.</li>
+              <li>The current subscription price is <strong>$1.99 USD</strong> and may change following Apple guidelines.</li>
             </ul>
           </section>
 
