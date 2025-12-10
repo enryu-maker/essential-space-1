@@ -39,7 +39,7 @@ export const Hero = () => {
             </div>
 
             <p className="mt-8 text-sm text-gray-400 font-[AksharLight]">
-              Designed for iPhone & MacOS.
+              Designed for iPhone & MacBook.
             </p>
           </motion.div>
         </div>

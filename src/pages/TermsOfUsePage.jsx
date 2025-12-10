@@ -14,7 +14,7 @@ const TermsOfUsePage = () => {
       <div className="pt-32 pb-24 px-6 max-w-3xl mx-auto font-[Akshar] text-gray-800">
         <h1 className="text-4xl md:text-5xl font-[AksharSemiBold] mb-8">Terms of Use</h1>
         <p className="text-gray-500 font-[AksharRegular] mb-12">
-          Last updated: {new Date().toLocaleDateString()}
+          Last updated:  9/12/2025
         </p>
 
         <div className="space-y-10">
@@ -33,13 +33,13 @@ const TermsOfUsePage = () => {
           <section>
             <h2 className="text-2xl font-[AksharSemiBold] mb-4 text-gray-900">2. Subscriptions & Payments</h2>
             <ul className="list-disc pl-6 space-y-2 font-[AksharRegular] text-gray-600 text-lg">
-              <li>Essential Space offers a Premium Auto-renew subscription that provides access to additional features.</li>
+              <li>Essential Space offers a Premium subscription that provides access to additional features.</li>
               <li>Payment is charged to your Apple ID account at the time of purchase.</li>
               <li>The subscription automatically renews unless canceled at least 24 hours before the end of the billing period.</li>
               <li>Your Apple ID account will be charged for renewal within 24 hours prior to the end of the current period.</li>
               <li>You can manage and cancel your subscription through your App Store account settings.</li>
               <li>We do not store or access your payment information.</li>
-              <li>The current subscription price is <strong>$1.99 USD</strong> and may change following Apple guidelines.</li>
+              <li>The current subscription price is <strong>$0.199 USD</strong> and may change following Apple guidelines.</li>
             </ul>
           </section>
 
@@ -104,7 +104,7 @@ const TermsOfUsePage = () => {
           <section>
             <h2 className="text-2xl font-[AksharSemiBold] mb-4 text-gray-900">8. Limitation of Liability</h2>
             <p className="leading-relaxed font-[AksharRegular] text-lg text-gray-600">
-              To the fullest extent allowed by law, Essential Space is not responsible for data loss, misuse, or indirect damages. 
+              To the fullest extent allowed by law, Essential Space is not responsible for data loss, misuse, or indirect damages.
               Because your data is encrypted and only accessible by you, lost data may not be recoverable.
             </p>
           </section>
@@ -115,8 +115,8 @@ const TermsOfUsePage = () => {
             <p className="leading-relaxed font-[AksharRegular] text-lg text-gray-600">
               If you have any questions about these terms, contact us at:
               <br />
-              <a 
-                href="mailto:support@essentialspace.in" 
+              <a
+                href="mailto:support@essentialspace.in"
                 className="text-black font-medium text-lg animated-underline hover:text-gray-700 transition"
               >
                 📧 support@essentialspace.in
