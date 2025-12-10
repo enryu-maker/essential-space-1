@@ -54,13 +54,13 @@ export default function ResetPass() {
             <div className="w-full md:max-w-md">
 
                 {/* Title */}
-                <h1 className="text-3xl font-extrabold text-center text-[#111827] mb-8">
+                <h1 className="text-3xl font-[AksharSemiBold] text-center text-[#111827] mb-8">
                     Reset Password
                 </h1>
 
                 {/* NEW PASSWORD */}
                 <div className="bg-white rounded-xl p-6 mb-5 shadow-sm">
-                    <p className="text-lg font-semibold text-[#111827]">New Password</p>
+                    <p className="text-lg font-[AksharSemiBold] text-[#111827]">New Password</p>
 
                     <div className="flex items-center justify-between mt-2">
                         <input
@@ -73,7 +73,7 @@ export default function ResetPass() {
 
                         <button
                             onClick={() => setShowPass(!showPass)}
-                            className="text-black font-semibold ml-3"
+                            className="text-black font-[AksharSemiBold] ml-3"
                         >
                             {showPass ? "Hide" : "Show"}
                         </button>
@@ -82,7 +82,7 @@ export default function ResetPass() {
 
                 {/* CONFIRM PASSWORD */}
                 <div className="bg-white rounded-xl p-6 mb-5 shadow-sm">
-                    <p className="text-lg font-semibold text-[#111827]">Confirm Password</p>
+                    <p className="text-lg font-[AksharSemiBold] text-[#111827]">Confirm Password</p>
 
                     <div className="flex items-center justify-between mt-2">
                         <input
@@ -95,7 +95,7 @@ export default function ResetPass() {
 
                         <button
                             onClick={() => setShowConfirm(!showConfirm)}
-                            className="text-black font-semibold ml-3"
+                            className="text-black font-[AksharSemiBold] ml-3"
                         >
                             {showConfirm ? "Hide" : "Show"}
                         </button>
@@ -119,7 +119,7 @@ export default function ResetPass() {
                 <button
                     onClick={handleSubmit}
                     disabled={loading}
-                    className="w-full bg-black text-white py-4 mt-3 rounded-xl text-lg font-semibold shadow active:scale-[0.98] transition"
+                    className="w-full bg-black text-white py-4 mt-3 rounded-xl text-lg font-[AksharSemiBold] shadow active:scale-[0.98] transition"
                 >
                     {loading ? "Please wait..." : "Reset Password"}
                 </button>
