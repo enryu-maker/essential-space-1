@@ -74,7 +74,7 @@ const PrivacyPolicyPage = () => {
                         <ul className="list-disc font-[AksharRegular] pl-6 space-y-2 text-lg text-gray-600">
                             <li>All subscriptions are processed securely by the Apple App Store.</li>
                             <li>We do not store, process, or have access to your payment information.</li>
-                            <li>The current subscription price is $0.199 USD and may change as needed in the future.
+                            <li>The current subscription price is $1.99 USD and may change as needed in the future.
                                 Any changes will follow App Store guidelines and be communicated appropriately.</li>
                         </ul>
                     </section>

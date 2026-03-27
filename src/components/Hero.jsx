@@ -20,7 +20,7 @@ export const Hero = () => {
             <h1 className="text-5xl md:text-8xl font-[AksharMedium] text-gray-900 mb-8 tracking-tighter leading-[0.9]">
               Essential Space
             </h1>
-            <p className="text-2xl md:text-3xl text-gray-400 font-light mb-8 font-[SweetApricot]">
+            <p className="text-2xl md:text-3xl text-gray-400 font-light mb-8 font-[Maybug]">
               A calmer way to remember, plan, and think.
             </p>
             <p className="text-xl text-gray-600 mb-10 max-w-lg mx-auto md:mx-0 leading-relaxed font-[AksharMedium]">

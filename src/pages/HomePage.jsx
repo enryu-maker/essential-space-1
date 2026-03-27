@@ -154,7 +154,7 @@ const Home = () => {
                 {/* Benefits Section */}
                 <section className="py-24 bg-white">
                     <div className="max-w-4xl mx-auto px-6 text-center">
-                        <h2 className="text-4xl md:text-6xl font-[SweetApricot] text-gray-900 mb-8 transform -rotate-2">
+                        <h2 className="text-4xl md:text-6xl font-[Maybug] text-gray-900 mb-8 transform -rotate-2">
                             Why it matters
                         </h2>
                         <p className="text-xl md:text-2xl font-[AksharRegular] text-gray-600 leading-relaxed mb-16 max-w-2xl mx-auto">

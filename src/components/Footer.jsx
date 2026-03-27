@@ -13,7 +13,7 @@ export const Footer = () => {
               <div className="w-10 h-10 bg-black rounded-lg flex items-center justify-center">
                           <img src={Logo} className='w-10 h-10 rounded-lg' alt="" />
                         </div>
-              <span className="font-[SweetApricot] text-3xl text-gray-900 ">Essential Space</span>
+              <span className="font-[Maybug] text-3xl text-gray-900 ">Essential Space</span>
             </Link>
             <p className="text-sm text-gray-400 font-[AksharRegular]">
               © {new Date().getFullYear()} Essential Space. All rights reserved.

@@ -26,7 +26,7 @@ export const PhoneMockup = ({ className }) => {
 
         {/* Header */}
         <div className="mt-4 mb-4 text-center">
-          <h1 className="text-4xl font-[SweetApricot] text-gray-900">Essential Space</h1>
+          <h1 className="text-4xl font-[Maybug] text-gray-900">Essential Space</h1>
         </div>
 
         {/* ------ Smaller Feature Grid ------ */}

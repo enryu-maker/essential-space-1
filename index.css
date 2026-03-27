@@ -6,6 +6,11 @@
 }
 
 @font-face {
+    font-family: Maybug;
+    src: url(/fonts/MaybugMSHandwritten.ttf);
+}
+
+@font-face {
     font-family: AksharMedium;
     src: url(/fonts/Akshar-Medium.ttf);
 }
