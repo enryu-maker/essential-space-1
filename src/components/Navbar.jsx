@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 import Logo from '../assets/common/logo.jpg';
+import Icon from '/icon.png';
 
 export const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -48,7 +49,8 @@ export const Navbar = () => {
           <div className="w-10 h-10 bg-black rounded-lg flex items-center justify-center">
             <img src={Logo} className='w-10 h-10 rounded-lg' alt="" />
           </div>
-          <span className="font-[Maybug] text-3xl text-gray-900">Essential Space</span>
+          <img src={Icon} className='w-36' alt="" />
+          {/* <span className="font-[Maybug] text-3xl text-gray-900">Essential Space</span> */}
         </div>
 
         {/* Desktop Menu */}

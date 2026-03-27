@@ -1,4 +1,6 @@
 import React from 'react';
+import Icon from '/icon.png';
+
 import { Mic, Image as ImageIcon, FileText, Link2, Home, User, Menu, CheckSquare, Ellipsis, ListTodo } from 'lucide-react';
 
 export const PhoneMockup = ({ className }) => {
@@ -25,8 +27,9 @@ export const PhoneMockup = ({ className }) => {
         </div>
 
         {/* Header */}
-        <div className="mt-4 mb-4 text-center">
-          <h1 className="text-4xl font-[Maybug] text-gray-900">Essential Space</h1>
+        <div className="mt-4 mb-4 text-center flex justify-center">
+          {/* <h1 className="text-4xl font-[Maybug] text-gray-900">Essential Space</h1> */}
+           <img src={Icon} className='w-36' alt="" />
         </div>
 
         {/* ------ Smaller Feature Grid ------ */}
