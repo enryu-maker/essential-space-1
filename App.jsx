@@ -4,6 +4,7 @@ import Home from './src/pages/HomePage';
 import PrivacyPolicyPage from './src/pages/PrivacyPolicyPage'
 import TermsOfUsePage from './src/pages/TermsOfUsePage';
 import ContactPage from './src/pages/ContactPage';
+import ResetPass from './src/pages/ResetPass';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/privacy" element={<PrivacyPolicyPage />} />
         <Route path="/terms" element={<TermsOfUsePage />} />
         <Route path="/contact" element={<ContactPage />} />
+        <Route path="/reset-password" element={<ResetPass />} />
       </Routes>
     </>
 
